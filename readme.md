@@ -6,8 +6,9 @@ project logo in various formats.
 
 ## contents
 
-| filename   | description                                                 |
-| ---------- | ----------------------------------------------------------- |
-| logo.scad  | openscad include file containing module for rendering logo. |
-| logo.ase   | aseprite file for logo, set in a square.                    |
-| header.ase | aseprite file for logo, set in a wide rectangle.            |
+| filename                     | description                               |
+| ---------------------------- | ----------------------------------------- |
+| [logo.scad]                  | openscad module.                          |
+| [logo.ase]                   | aseprite file; logo in a square.          |
+| [header.ase]                 | aseprite file; logo in a wide rectangle.  |
+| [logo.pretty/logo.kicad_mod] | kicad footprint; text-aligned silkscreen. |
