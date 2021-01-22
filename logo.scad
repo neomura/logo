@@ -1,9 +1,6 @@
 // renders the "neomura" logo, centered, scaled to a specific height.
-module logo(height) {
-  // all segments are expanded slightly in all directions to avoid numerical
-  // precision problems.
-  push = 0.0001;
-
+// all shapes can be thickened slightly using the "expand" parameter.
+module logo(height, expand) {
   scale(height / 7) {
     translate([-28 - push / 2, -3.5 - push / 2]) {
       // n
