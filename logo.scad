@@ -1,5 +1,5 @@
-// renders the "neomura" logo, centered, scaled to a specific height.
-// all shapes can be thickened slightly using the "expand" parameter.
+// Renders the "neomura" logo, centered, scaled to a specific height.
+// All shapes can be thickened slightly using the "expand" parameter.
 module logo(height, expand) {
   expand = expand * 2 / (height / 7);
 
